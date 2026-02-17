@@ -31,7 +31,7 @@ app.UseAuthorization();
 app.MapControllers();
 
 // 
-app.MapGet("/hello", () => "Hello From Render API running .NET 9/10");
+app.MapGet("/hello", () => " API has been updated through CI and CD");
 
 app.Run();
 
